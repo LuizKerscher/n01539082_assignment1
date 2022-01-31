@@ -7,8 +7,12 @@ using System.Web.Http;
 
 namespace n01539082_w2022_assignment1.Controllers
 {
-    public class Question1Controller : ApiController
+    public class AddTenController : ApiController
     {
-        //GET /api/Queston1/70
+        //Question 1
+        public int Get(int id)
+        {
+            return id + 10;
+        }
     }
 }
